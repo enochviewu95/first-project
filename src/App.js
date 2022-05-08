@@ -8,8 +8,11 @@ class App extends Component {
     window.addEventListener('scroll',this.onScrollListener)
   }
 
+  componentWillUnmount(){
+    window.removeEventListener('scroll',this.onScrollListener)
+  }
+
   onScrollListener = (e) =>{
-    console.log('Scrolling',e);
     const navigation = document.querySelector('nav');
     navigation.classList.toggle('window-scroll',window.scrollY > 0)
   }

@@ -9,7 +9,6 @@ import '../Styles/Navbar.css'
  */
 
 function Navbar() {
-  
   return (
     <nav>
       <div className="container nav__container">
