@@ -1,6 +1,7 @@
 import './App.css';
 import React, { Component } from 'react'
 import Homepage from './Pages/Homepage';
+import Portfolio from './Pages/Portfolio';
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className="App" onScroll={this.onScrollListener}>
         <Homepage/>
+        <Portfolio/>
       </div>
     )
   }

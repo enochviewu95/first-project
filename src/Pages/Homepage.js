@@ -1,25 +1,18 @@
-import React, { Component } from 'react'
-
+import React from 'react'
 import Header from '../Components/Header'
 import Navbar from '../Components/Navbar'
 
-
-class Homepage extends Component {
-
-
-  render() {
-    return (
-      <div>
+/**
+ * The Homepage function returns a div that contains the Navbar and Header components.
+ * @returns The Navbar and Header components are being returned.
+ */
+function Homepage() {
+  return (
+    <div>
       <Navbar />
       <Header />
-      <main>
-        <section>
-          
-        </section>
-      </main>
     </div>
-    )
-  }
+  )
 }
 
-export default Homepage
+export default Homepage;
