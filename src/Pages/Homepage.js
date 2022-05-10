@@ -8,7 +8,7 @@ import Navbar from '../Components/Navbar'
  */
 function Homepage() {
   return (
-    <div>
+    <div id='Home'>
       <Navbar />
       <Header />
     </div>
